@@ -1,1 +1,1 @@
-# portCommOnlyCplusplus
+仅使用c++库提供的接口实现串口通信，并学习多线程编程。
