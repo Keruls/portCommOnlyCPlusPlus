@@ -130,6 +130,7 @@ bool MyPort::thread_open()
 
 DWORD WINAPI MyPort::thread_listen(LPVOID param)
 {
+	//线程函数需要源类指针来调用相关变量/函数
 	//获取本类对象，源对象来自CreateThread函数传递的this指针
 	MyPort* myPort = static_cast<MyPort*> (param);
 
